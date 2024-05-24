@@ -8,7 +8,7 @@ see: [pwsh-profile](https://github.com/Daydreamer-riri/pwsh-profile/)
 
 ## VSCode settings
 
-see: [settigns](./vscode-settings.cjson)
+see: [settigns](./vscode-settings.json)
 
 ## Node global dependencies
 
