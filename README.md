@@ -44,3 +44,7 @@ winget install --id=Microsoft.PowerToys -e
 - [PowerToysRun-GitHubRepo](https://github.com/8LWXpg/PowerToysRun-GitHubRepo)
 - [PowertoysRunTOTP](https://github.com/KawaiiZapic/PowertoysRunTOTP)
 - [PowerToys-Run-DevToys](https://github.com/davidegiacometti/PowerToys-Run-DevToys)
+
+## Font
+
+[cascadia-code](https://github.com/microsoft/cascadia-code)
