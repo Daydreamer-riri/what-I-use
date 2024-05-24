@@ -1,0 +1,128 @@
+{
+  "zenMode.hideLineNumbers": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnType": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "emmet.syntaxProfiles": {
+    "html": {
+      "inline_break": 2
+    }
+  },
+  "editor.linkedEditing": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.smoothScrolling": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.confirmSync": false,
+  "editor.tabSize": 2,
+  "todohighlight.isEnable": true,
+  "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    {
+      "text": "NOTE:",
+      "color": "#ff0000",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "HACK:",
+      "color": "#000",
+      "isWholeLine": false
+    },
+
+    "TODO:"
+  ],
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "gitlens.defaultDateFormat": null,
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "git.enableSmartCommit": true,
+  "editor.formatOnPaste": true,
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript",
+    "*.astro": "astro",
+    "*.css": "css",
+    "*.rs": "rust"
+  },
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "editor.stickyScroll.enabled": true,
+  "terminal.integrated.gpuAcceleration": "off",
+  "prettier.singleQuote": true,
+  "svg.preview.mode": "svg",
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "window.commandCenter": true,
+  "typeChallenges.workspaceFolder": "d:\\Users\\ding.zhao\\Code\\type_challenges",
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    }
+  },
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "material-icon-theme",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "eslint.experimental.useFlatConfig": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "css",
+    "astro",
+    "json"
+  ],
+  "eslint.format.enable": true,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.lineNumbers": "interval",
+  "editor.indentSize": "tabSize",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true
+  },
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.titleBarStyle": "custom",
+  "errorLens.enabledDiagnosticLevels": ["error", "info", "warning"],
+  "editor.fontFamily": "Cascadia Code, Consolas, monospace",
+  "terminal.integrated.fontFamily": "MesloLGM NF",
+  "editor.detectIndentation": false,
+  "workbench.activityBar.location": "top",
+  "editor.fontVariations": true,
+  "editor.fontSize": 16,
+  "editor.guides.bracketPairs": "active",
+  "editor.fontLigatures": "'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss19', 'ss20', 'calt', 'dlig'",
+  "workbench.colorTheme": "Vitesse Black",
+  "editor.accessibilitySupport": "off"
+}
