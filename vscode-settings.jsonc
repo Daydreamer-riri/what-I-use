@@ -1,0 +1,462 @@
+{
+  "zenMode.hideLineNumbers": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnType": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "emmet.syntaxProfiles": {
+    "html": {
+      "inline_break": 2
+    }
+  },
+  "editor.linkedEditing": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.smoothScrolling": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.confirmSync": false,
+  "editor.tabSize": 2,
+  "todohighlight.isEnable": true,
+  "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    {
+      "text": "NOTE:",
+      "color": "#ff0000",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "HACK:",
+      "color": "#000",
+      "isWholeLine": false
+    },
+
+    "TODO:"
+  ],
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "gitlens.defaultDateFormat": null,
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "git.enableSmartCommit": true,
+  "editor.formatOnPaste": true,
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript",
+    "*.astro": "astro",
+    "*.css": "css",
+    "*.rs": "rust"
+  },
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "editor.stickyScroll.enabled": true,
+  "terminal.integrated.gpuAcceleration": "off",
+  "prettier.singleQuote": true,
+  "svg.preview.mode": "svg",
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "window.commandCenter": true,
+  "typeChallenges.workspaceFolder": "d:\\Users\\ding.zhao\\Code\\type_challenges",
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    }
+  },
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "material-icon-theme",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "eslint.experimental.useFlatConfig": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "css",
+    "astro",
+    "json"
+  ],
+  "eslint.format.enable": true,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.indentSize": "tabSize",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true
+  },
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.titleBarStyle": "custom",
+  "errorLens.enabledDiagnosticLevels": ["error", "info", "warning"],
+  "editor.fontFamily": "Cascadia Code, Consolas, monospace",
+  "terminal.integrated.fontFamily": "MesloLGM NF",
+  "editor.detectIndentation": false,
+  "workbench.activityBar.location": "top",
+  "editor.fontVariations": true,
+  "editor.fontSize": 16,
+  "editor.guides.bracketPairs": "active",
+  "editor.fontLigatures": "'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss19', 'ss20', 'calt', 'dlig'",
+  "workbench.colorTheme": "Vitesse Black",
+  "editor.accessibilitySupport": "off",
+
+  // --------------------------------
+  // vim
+  // --------------------------------
+  "vim.useSystemClipboard": true,
+  "vim.easymotion": true,
+  "vim.visualstar": true,
+  "vim.incsearch": true,
+  "editor.lineNumbers": "relative",
+  "vim.leader": "<space>",
+  "vim.hlsearch": true,
+  "vim.foldfix": true,
+  "vim.highlightedyank.enable": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.sneak": true,
+  "vim.sneakUseIgnorecaseAndSmartcase": true,
+  "vim.statusBarColorControl": false,
+  "vim.timeout": 500,
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": true,
+    "<C-z>": false,
+    "<C-y>": false,
+    "<C-j>": false,
+    // "<C-p>": false,
+    // "<C-r>": false,
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<c-p>"
+      ],
+      "commands": [
+        "workbench.action.showCommands"
+      ],
+      "silent": true
+    },
+    {
+      "before": [
+        "<c-a>"
+      ],
+      "after": [
+        "g",
+        "g",
+        "V",
+        "G"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "i"
+      ],
+      "commands": [
+        "extension.toggleBool"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "k"
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "c",
+        "a"
+      ],
+      "commands": [
+        "editor.action.quickFix"
+      ]
+    },
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "g",
+        "T"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "commands": [
+        "workbench.action.nextEditor"
+      ]
+    },
+    {
+      "before": [
+        "f"
+      ],
+      "after": [
+        "s"
+      ]
+    },
+    {
+      "before": [
+        "F"
+      ],
+      "after": [
+        "S"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "s",
+        "S"
+      ],
+      "commands": [
+        "workbench.action.showAllSymbols"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "s",
+        "s"
+      ],
+      "commands": [
+        "workbench.action.gotoSymbol"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "s",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "s",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.quickTextSearch"
+      ]
+    },
+    {
+      "before": [
+        "[",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.next"
+      ]
+    },
+    {
+      "before": [
+        "]",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.prev"
+      ]
+    },
+    {
+      "before": ["]", "]"],
+      "commands": ["goToNextReference"]
+    },
+    {
+      "before": ["[", "["],
+      "commands": ["goToPreviousReference"]
+    },
+    {
+      "before": [
+        "g",
+        "p"
+      ],
+      "commands": [
+        "editor.action.peekDefinition",
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "P"
+      ],
+      "commands": [
+        "editor.action.peekTypeDefinition",
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "t"
+      ],
+      "commands": [
+        "editor.action.goToTypeDefinition"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "r"
+      ],
+      "commands": [
+        "editor.action.goToReferences"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "<Tab>",
+        "o"
+      ],
+      "commands": [
+        "workbench.action.closeOtherEditors"
+      ]
+    },
+    {
+      "before": [
+        "<Tab>"
+      ],
+      "commands": [
+        "workbench.action.nextEditor"
+      ]
+    },
+    {
+      "before": [
+        "<C-s>"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ],
+    },
+    {
+      "before": ["leader", "r"],
+      "commands": ["editor.action.rename"],
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "leader",
+        "s"
+      ],
+      "after": [
+        "leader",
+        "leader",
+        "s"
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl",
+      ]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "m"],
+      "commands": [
+        "bookmarks.toggle"
+      ]
+    },
+    {
+      "before": ["<leader>", "M"],
+      "commands": [
+        "bookmarks.list"
+      ]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "<C-i>"
+      ],
+      "commands": [
+        "editor.action.triggerSuggest"
+      ]
+    },
+  ],
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<C-s>"
+      ],
+      "after": [
+        "<Esc>"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ],
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        ">"
+      ],
+      "commands": [
+        "editor.action.indentLines"
+      ]
+    },
+    {
+      "before": [
+        "<"
+      ],
+      "commands": [
+        "editor.action.outdentLines"
+      ]
+    },
+  ],
+  "editor.cursorSurroundingLines": 5,
+  "apc.stylesheet": {
+    "#vscodevim\\.vim\\.primary": "background-color: #a89984 !important;color: #282828 !important;",
+    "#vscodevim\\.vim\\.primary[aria-label=\"-- INSERT --\"]": "background-color: #83a598 !important;color: #282828 !important;",
+    "#vscodevim\\.vim\\.primary[aria-label^=\"-- VISUAL\"]": "background-color: #fe8019 !important;color: #282828 !important;",
+    "#vscodevim\\.vim\\.primary[aria-label^=\"-- EASYMOTION\"]": "background-color: #b16286 !important;color: #282828 !important;",
+    "#vscodevim\\.vim\\.primary[aria-label^=\"-- SURROUND\"]": "background-color: #a9b665 !important;color: #282828 !important;",
+    "#vscodevim\\.vim\\.primary[aria-label^=\":\"]": "background-color: #a29182 !important;color: #282828 !important;",
+    "#vscodevim\\.vim\\.primary[aria-label^=\"/\"]": "background-color: #d8a657 !important;color: #282828 !important;",
+    "#vscodevim\\.vim\\.primary[aria-label^=\"?\"]": "background-color: #d8a657 !important;color: #282828 !important;",
+  },
+}
